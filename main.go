@@ -10,7 +10,7 @@ import (
 var randomKillTime = rand.Intn(300-60) + 60
 
 func ping(w http.ResponseWriter, req *http.Request) {
-	fmt.Fprintf(w, "Pong for now\n")
+	fmt.Fprintf(w, "Pong\n")
 }
 
 func main() {
